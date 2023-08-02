@@ -6,6 +6,7 @@ ZIP_NAME = "ex.zip"  # Name of the generated zip file
 
 
 def zip():
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
     try:
         current_dir = os.path.dirname(os.path.abspath(__file__))
         zip_filepath = os.path.join(current_dir, ZIP_NAME)
