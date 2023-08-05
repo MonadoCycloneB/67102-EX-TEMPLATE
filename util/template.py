@@ -1,7 +1,7 @@
 #################################################################
-# FILE : ex3.py
-# WRITER : Dolev Irron , dolev.irron , 314635350
-# EXERCISE : intro2cse ex3 2023
+# FILE : <INSERT FILE NAME>
+# WRITER : <INSERT YOUR NAME> , <INSERT YOUR LOGIN> , <INSERT ID>
+# EXERCISE : intro2cse <INSERT EXERCISE NUMBER (ex1, ex2, etc)> 2023
 # DESCRIPTION: <INSERT DESCRIPTION>
 # STUDENTS I DISCUSSED THE EXERCISE WITH: Bugs Bunny, b_bunny.
 #								 	      Daffy Duck, duck_daffy.

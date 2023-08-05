@@ -2,7 +2,7 @@ import os
 import zipfile
 
 SRC_FOLDER = "src"  # Project files directory
-ZIP_NAME = "ex3.zip"  # Name of the generated zip file
+ZIP_NAME = "ex.zip"  # Name of the generated zip file
 
 
 def zip():
