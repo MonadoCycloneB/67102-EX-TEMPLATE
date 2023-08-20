@@ -3,6 +3,7 @@ import zipfile
 
 SRC_FOLDER = "src"  # Project files directory
 ZIP_NAME = "ex.zip"  # Name of the generated zip file
+EXCLUDE_FILES = []
 
 
 def zip():
@@ -16,6 +17,8 @@ def zip():
                 if "__pycache__" in foldername:
                     continue
                 for filename in filenames:
+                    if filename in EXCLUDE_FILES:
+                        continue
                     filepath = os.path.join(foldername, filename)
                     arcname = os.path.relpath(filepath, SRC_FOLDER)
                     zipf.write(filepath, arcname)
